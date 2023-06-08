@@ -10,7 +10,7 @@
 const limpaArray = (list) =>{
     const newList = []
     for(let i = 0; i < list.length; i++){
-        if(list[i] !== 0 && list[i] !== undefined && list[i] !== '' && list[i] !== null && list[i] !== false){
+        if(list[i] != 0 && list[i] != undefined && list[i] != '' && list[i] != null && list[i] != false){
             newList.push(list[i])
         }
     }
