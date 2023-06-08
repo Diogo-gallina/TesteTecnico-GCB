@@ -7,15 +7,13 @@
 // Resultado do método
 //['i', 'i']
 
-function criarArray(qtd, valor) {
-    const arr = [];
+const criarArray = (qtd, valor) => {
+    const list = [];
     for(let i = 0; i < qtd; i++){
-        arr.push(valor)
+        list.push(valor);
     }
-    return arr;
+    return list;
 }
 
-const exemplo1 = criarArray(2,'i') 
-const exemplo2 = criarArray(4,'v') 
+const exemplo1 = criarArray(2,'i'); 
 console.log(exemplo1);
-console.log(exemplo2);
