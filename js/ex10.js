@@ -25,5 +25,5 @@ const valoresEmComum = (list1, list2) => {
     return valoresComuns;
 }
 
-const exemplo1 = valoresEmComum([6, 8], [8, 9]);
-console.log(exemplo1);
+const exemplo = valoresEmComum([6, 8], [8, 9]);
+console.log(exemplo);
